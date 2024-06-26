@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, sans-serif;
+    background: url('bindi\ edited.jpg') no-repeat center center fixed;
+    background-size: cover; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.signin-container {
+    background-color: transparent; 
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    width: 300px;
+    text-align: center;
+    color: #ffffff; 
+}
+
+.signin-container h1 {
+    margin-bottom: 20px;
+    color:red; 
+}
+
+.form-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color:red; 
+}
+
+.form-group input {
+    width: 100%;
+    padding: 8px 0; 
+    box-sizing: border-box;
+    background-color: transparent; 
+    border: none;
+    border-bottom: black; 
+    color: whitesmoke; 
+    outline: none;
+}
+.form-group input::placeholder {
+    color: brown; 
+}
+
+.form-group input:focus {
+    border-bottom-color: brown; 
+}
+.form-group button {
+    width: 100%;
+    padding: 10px;
+    background-color: transparent; 
+    border: none;
+    color: red; 
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.form-group button:hover {
+    background-color: brown; 
+}
+
+.links {
+    margin-top: 15px;
+}
+
+.links a {
+    display: block;
+    margin: 5px 0;
+    color: whitesmoke; 
+    text-decoration: none;
+}
+
+.links a:hover {
+    text-decoration: underline;
+}
+
+
